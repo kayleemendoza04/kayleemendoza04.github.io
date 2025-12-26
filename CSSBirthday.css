@@ -6,17 +6,8 @@ body {
     float: right;
     margin-right: 50px; /* Adds space between the image and the text to its left */
     margin-bottom: 50px; /* Adds space below the image */
-	margin-top: -140px;
+	margin-top: -120px;
 }
-
-.video {
-    display: flex;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;     /* Centers vertically */
-    height: 100vh;           /* Example: centers in the full viewport height */
-    /* Add other styling as needed, e.g., background-color */
-}
-
 
 /* Optional: Add basic styling for readability */
 .intro {
@@ -59,4 +50,5 @@ footer {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
 
