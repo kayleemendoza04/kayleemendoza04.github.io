@@ -36,7 +36,27 @@ body {
 	margin-right: 50px;
 }
 
+footer {
+    /* Default (desktop first) styles */
+    background-image: url('desktopBackground.jpg');
+    background-size: cover; /* Ensures the image covers the entire footer area without repeating */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 200px; /* Adjust height as needed */
+    width: 100%;
+}
+
+/* Media query for screens smaller than 768px (common mobile breakpoint) */
+@media only screen and (max-width: 768px) {
+    footer {
+        background-image: url('phoneBackground.jpg'); /* Change the image source for mobile */
+        height: 100px; /* Adjust height for mobile view if necessary */
+    }
+}
+
+
 @media (max-width: 768px) {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
