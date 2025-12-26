@@ -6,7 +6,7 @@ body {
     float: right;
     margin-right: 50px; /* Adds space between the image and the text to its left */
     margin-bottom: 50px; /* Adds space below the image */
-	margin-top: -120px;
+	margin-top: -90px;
 }
 
 /* Optional: Add basic styling for readability */
@@ -50,5 +50,6 @@ footer {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
 
 
