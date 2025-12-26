@@ -5,7 +5,7 @@ body {
 .image{
     float: right;
     margin-right: 50px; /* Adds space between the image and the text to its left */
-    margin-bottom: 50px; /* Adds space below the image */
+    margin-bottom: 25px; /* Adds space below the image */
 	margin-top: -90px;
 }
 
@@ -50,6 +50,7 @@ footer {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
 
 
 
