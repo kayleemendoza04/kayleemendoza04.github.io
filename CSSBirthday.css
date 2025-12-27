@@ -35,7 +35,9 @@ body {
     font-family: sans-serif;
     
     /* 1. Define the gradient as the background image */
-    background-image: linear-gradient(to right, #586f56, #738d76, #8ba189, #8ba189, #738d76, #586f56);
+    background-image: linear-gradient(to right, #35703C
+, #4C7035, #697035, #697035, #4C7035, #35703C
+);
     
     /* 2. Clip the background to only cover the text glyphs */
     -webkit-background-clip: text; /* For cross-browser compatibility (especially older Safari/Chrome) */
@@ -53,6 +55,7 @@ body {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
 
 
 
