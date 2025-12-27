@@ -28,10 +28,32 @@ body {
 	margin-right: 50px;
 }
 
+.name {
+    font-size: 80px;
+    font-weight: bold;
+    text-align: center;
+    font-family: sans-serif;
+    
+    /* 1. Define the gradient as the background image */
+    background-image: linear-gradient(to right, #ff0000, #ff7700, #ffff00, #00ff00, #0000ff, #8a2be2);
+    
+    /* 2. Clip the background to only cover the text glyphs */
+    -webkit-background-clip: text; /* For cross-browser compatibility (especially older Safari/Chrome) */
+    background-clip: text;
+    
+    /* 3. Make the actual text color transparent so the background shows through */
+    color: transparent;
+    
+    /* Optional: Add a subtle shadow for better readability/pop */
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.2);
+}
+
+
 @media (max-width: 768px) {
         flex-direction: column; /* Stacks the items vertically on small screens */
 
 }
+
 
 
 
