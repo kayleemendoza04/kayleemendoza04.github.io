@@ -38,3 +38,9 @@ body {
     height: auto;        /* Maintains aspect ratio */
     object-fit: cover;   /* Ensures images cover the allocated space nicely */
 }
+
+img {
+  max-width: 100%; /* Shrinks if smaller than container */
+  height: auto;    /* Maintains aspect ratio */
+}
+
