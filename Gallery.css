@@ -25,3 +25,16 @@ body {
 	margin-left: 50px;
 	margin-right: 50px;
 }
+
+.image-gallery {
+    display: flex;       /* Makes the children flex items arranged in a row */
+    gap: 20px;           /* Adds space between the images */
+    justify-content: center; /* Optional: Centers the images within the container */
+}
+
+/* Optional: Ensures images are responsive and uniform in size */
+.image-gallery img {
+    width: 30%;          /* Adjust width as needed */
+    height: auto;        /* Maintains aspect ratio */
+    object-fit: cover;   /* Ensures images cover the allocated space nicely */
+}
