@@ -10,7 +10,7 @@ body {
 
 /* Create two equal columns that sits next to each other */
 .column {
-  flex: 50%;
+  flex: 25%;
   padding: 0 4px;
 }
 
@@ -22,8 +22,8 @@ body {
 }
 .index {
 	background-color:#7BAA47;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 25px;
+	margin-right: 25px;
 }
 
 img {
